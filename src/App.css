@@ -1,0 +1,11 @@
+/* app.css */
+
+.result-container {
+  background-color: #272822;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+body {
+  background-color: #f0f0f0;
+}

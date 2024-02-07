@@ -103,11 +103,11 @@ const App = () => {
 
         {/* HTML Card */}
         <div
-          className="bg-[#272822] p-4 rounded-lg shadow  w-full md:w-96 xl:w-1/3"
+          className="bg-[#272822] p-4 rounded-lg shadow  w-full md:w-96 xl:w-1/3 m-1"
           style={{ width: "auto", height: "20rem" }}
         >
           <div className="flex justify-between">
-            <h2 className="text-lg font-semibold text-white md-2"> HTML</h2>
+            <h2 className="text-lg font-semibold text-white md-2 "> HTML</h2>
             <CopyToClipboard
               text={htmlCode}
               onCopy={() => setCopied({ ...copied, html: true })}
@@ -134,7 +134,7 @@ const App = () => {
 
         {/* CSS Card */}
         <div
-          className="bg-[#272822] p-4 rounded-lg shadow w-full md:w-96 xl:w-1/3"
+          className="bg-[#272822] p-4 rounded-lg shadow w-full md:w-96 xl:w-1/3 m-1"
           // For mobile view, use full width
           style={{ width: "auto", height: "20rem" }}
         >
@@ -166,7 +166,7 @@ const App = () => {
 
         {/* JavaScript Card */}
         <div
-          className="bg-[#272822] p-4 rounded-lg shadow w-full md:w-96 xl:w-1/3"
+          className="bg-[#272822] p-4 rounded-lg shadow w-full md:w-96 xl:w-1/3 m-1"
           // For mobile view, use full width
           style={{ width: "auto", height: "20rem" }}
         >
@@ -201,7 +201,7 @@ const App = () => {
 
         {/* Code Result Card */}
         <div
-          className="col-span-3 bg-[#272822] p-4 rounded-lg shadow md:w-full"
+          className="col-span-3 bg-[#272822] p-4 rounded-lg shadow md:w-full m-1"
           style={{ width: "auto", height: "18rem" }}
         >
           <h2 className="text-lg font-semibold text-white md-2">

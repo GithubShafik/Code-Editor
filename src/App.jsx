@@ -99,10 +99,11 @@ const App = () => {
 
   return (
     <div className="p-2">
-      <div className="grid gap-2 text-white sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+<div className="gap-2 text-white sm:flex md:grid sm:flex-col lg:grid " >
+
         {/* HTML Card */}
         <div
-          className="bg-[#272822] p-4 rounded-lg shadow"
+          className="bg-[#272822] p-4 rounded-lg shadow  w-full md:w-96 xl:w-1/3"
           style={{ width: "auto", height: "20rem" }}
         >
           <div className="flex justify-between">
@@ -133,7 +134,8 @@ const App = () => {
 
         {/* CSS Card */}
         <div
-          className="bg-[#272822] p-4 rounded-lg shadow"
+          className="bg-[#272822] p-4 rounded-lg shadow w-full md:w-96 xl:w-1/3"
+          // For mobile view, use full width
           style={{ width: "auto", height: "20rem" }}
         >
           <div className="flex justify-between">
@@ -164,7 +166,8 @@ const App = () => {
 
         {/* JavaScript Card */}
         <div
-          className="bg-[#272822] p-4 rounded-lg shadow"
+          className="bg-[#272822] p-4 rounded-lg shadow w-full md:w-96 xl:w-1/3"
+          // For mobile view, use full width
           style={{ width: "auto", height: "20rem" }}
         >
           <div className="flex justify-between">
@@ -198,7 +201,7 @@ const App = () => {
 
         {/* Code Result Card */}
         <div
-          className="col-span-3 bg-[#272822] p-4 rounded-lg shadow"
+          className="col-span-3 bg-[#272822] p-4 rounded-lg shadow md:w-full"
           style={{ width: "auto", height: "18rem" }}
         >
           <h2 className="text-lg font-semibold text-white md-2">
